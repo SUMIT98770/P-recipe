@@ -1,0 +1,6 @@
+{
+  "framework": "nextjs",
+  "installCommand": "cd recipeai && npm ci",
+  "buildCommand": "cd recipeai && npm run build",
+  "outputDirectory": "recipeai/.next"
+}
