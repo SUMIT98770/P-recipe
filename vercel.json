@@ -1,6 +1,7 @@
 {
   "framework": "nextjs",
-  "installCommand": "cd recipeai && npm install --legacy-peer-deps",
-  "buildCommand": "cd recipeai && npm run build",
-  "outputDirectory": "recipeai/.next"
+  "root": "recipeai",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
 }
